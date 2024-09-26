@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="CSS/style.css"/>
+
+</head>
+
+<body>
+    
+    <h1>Login Form</h1>
+
+    <div id="form-container">
+
+        <form action="index.php" method="post">
+
+            <div id="user-container">
+
+                <!-- <label for="username" id="username-label">username : </label> -->
+
+                <input type="name" placeholder="Write The Username : " name="username" id="username" required minlength="5" maxlength="15" title="username with length from 5 to 15 chars"/>
+
+            </div>
+
+            <div id="pass-container">
+
+                <!-- <label for="password" id="password-label">password : </label> -->
+
+                <input type="password" placeholder="Write The Password : " name="password" id="password" required minlength="8" maxlength="25" title="password with length from 8 to 25 chars"/>
+
+            </div>
+
+            <div id="sub-container">
+
+                <input type="submit" value="Login" id="submit"/>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+<script src="JS/main.js"></script>
+
+</html>
